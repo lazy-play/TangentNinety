@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="48dp"
+    android:paddingLeft="10dp"
+    >
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginRight="22dp"
+        android:src="@drawable/ic_comments"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:layout_centerVertical="true"
+        android:scaleType="center" />
+
+    <com.pudding.tangentninety.weight.TransparentTextView
+        android:id="@+id/tv_badge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:text="…"
+        android:background="@drawable/rectangle"
+        android:textSize="10dp" />
+</RelativeLayout>
